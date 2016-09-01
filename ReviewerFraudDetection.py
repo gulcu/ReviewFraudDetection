@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+An implementation of Wang et al.'s review fraud detection algorithm as described
+in the paper 'Identify Online Store Review Spammers via Social Review Graph'
+by Gürsu Gülcü
 
 """
 Avt = []
