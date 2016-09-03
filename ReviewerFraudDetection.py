@@ -2,6 +2,7 @@
 """
 An implementation of Wang et al.'s review fraud detection algorithm as described
 in the paper 'Identify Online Store Review Spammers via Social Review Graph'
+which can be found at:  http://www.cs.ucsb.edu/~gangw/yelp/graph-2011.pdf
 by Gürsu Gülcü
 """
 
