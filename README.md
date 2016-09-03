@@ -7,14 +7,14 @@ The example we studied is a very intutitive one. Store s0 is a good store, and s
  _____________________________________________
 | Reviewer r| Review v | Store s  | Rating a  |
 |-----------|----------|----------|-----------|
-|     0     |     0    |    0     |     5     |
-|     0     |     1    |    1     |     1     |
-|     1     |     2    |    0     |     5     |
-|     1     |     3    |    1     |     1     |
-|     2     |     4    |    0     |     4     |
-|     2     |     5    |    1     |     2     |
-|     3     |     6    |    0     |     1     |
-|     3     |     7    |    1     |     5     |
+|     0     |     0    |    0     | 5 Stars   |
+|     0     |     1    |    1     | 1 Star    |
+|     1     |     2    |    0     | 5 Stars   |
+|     1     |     3    |    1     | 1 Star    |
+|     2     |     4    |    0     | 4 Stars   |
+|     2     |     5    |    1     | 2 Stars   |
+|     3     |     6    |    0     | 1 Star    |
+|     3     |     7    |    1     | 5 Stars   |
 ______________________________________________
 
 The Pyhon program ReviewFraudDetection.py generates graphs of the values calculated for the Trustiness, Honesty and Reliability measures after each iteration of the algorithm proposed by Wang et al. Currently the only purpose is to generate those graphs so I am not planning to refactor or clean up the cryptic code. However, I intend to devise my own solutions which will have cleaner and documented code.
