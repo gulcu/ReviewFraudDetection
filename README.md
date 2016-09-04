@@ -18,4 +18,4 @@ The example we studied is a very intutitive one. Store s0 is a good store, and s
 |       3       |      7      |       1     | 5 Stars   |
 _________________________________________________________
 
-The Pyhon program ReviewFraudDetection.py generates graphs of the values calculated for the Trustiness, Honesty and Reliability measures after each iteration of the algorithm proposed by Wang et al. Currently the only purpose is to generate those graphs so I am not planning to refactor or clean up the cryptic code. However, I intend to devise my own solutions which will have cleaner and documented code.
+The Pyhon program **ReviewFraudDetection.py** generates graphs of the values calculated for the Trustiness, Honesty and Reliability measures after each iteration of the algorithm proposed by Wang et al. Currently the only purpose is to generate those graphs so I am not planning to refactor or clean up the cryptic code. However, I intend to devise my own solutions which will have cleaner and documented code.
