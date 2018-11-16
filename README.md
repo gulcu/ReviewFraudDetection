@@ -1,9 +1,9 @@
 # ReviewFraudDetection
 
-The code implements a scenario where review spammers are distinguished from honest reviewers with the help of the model proposed by Wang, Sihong, Liu & Yu's paper "Identify Online Store Review Spammers via Social Review Graph" which appeared in ACM Transactions on Intelligent Systems and Technology. The article can be found here:  
+This code aims to quickly test a scenario where review spammers are distinguished from honest reviewers according to the model proposed by Wang, Sihong, Liu & Yu's paper "Identify Online Store Review Spammers via Social Review Graph" which appeared in ACM Transactions on Intelligent Systems and Technology. The article can be found here:  
 http://www.cs.ucsb.edu/~gangw/yelp/graph-2011.pdf
 
-To study the computation framework described by the paper, we wanted to see how the iterative process converges after assigning initial values of Trustiness T(r) = 1 for all reviewers r, and Reliability E(s) = 1 for all stores s. Initial Honesty H(v) values for each review v do not matter since they are immediately calculated from the other initial values at the start.  
+To study the computation framework described by the paper, we wanted to see how the proposed iterative process converges after assigning initial values of Trustiness T(r) = 1 for all reviewers r, and Reliability E(s) = 1 for all stores s. Initial Honesty H(v) values for each review v do not matter since they are immediately calculated from the other initial values at the start.  
 The example we studied is a very intutitive one. Store s0 is a good store, and s1 is a bad one. Reviewers r0 to r2 are trustable, whereas r3 is not. They rate each store on a 1 to 5(excellent) scale in the following way: 
  ________________________________________________________
 | r:Reviewer ID | v:Review ID | s:Store Id  | a:Rating  |
